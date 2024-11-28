@@ -1,0 +1,67 @@
+/* Jumbotron */
+#jumbotron {
+    background-image: url('img/jumbotron.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+#jumbotron h1 {
+    font-size: 4rem;
+    text-shadow: 5px 5px 50px rgba(0, 0, 0, 0.7);
+}
+
+#jumbotron p {
+    font-size: 1.25rem;
+    text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7);
+}
+.btn-info {
+  background-color: lightblue;
+  color: rgb(255, 255, 255);
+}
+.btn-info:hover {
+    background-color: rgb(81, 211, 255);  
+}
+
+.bg-blue {
+  color: lightskyblue;
+}
+
+.card:hover {
+  background-color: white;
+  margin: relative;
+  box-shadow: 3px 3px 8px 8px rgb(0, 0, 2);
+  transition: all 0.3s ease 0s;
+}
+
+#Konsultasi {
+  background-color: rgb(39, 60, 131);
+}
+
+h2::before,
+h2::after {
+  background-color: lightskyblue;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 25px;
+}
+
+h2::before {
+  right: 0.5em;
+  margin-right: -50%;
+}
+
+h2::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
